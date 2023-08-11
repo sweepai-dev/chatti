@@ -1,4 +1,4 @@
-# Turborepo Create React App starter
+# CHATTI
 
 This is an official starter Turborepo.
 
