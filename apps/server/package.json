@@ -6,11 +6,12 @@
     "start": "turbo run start",
     "build": "turbo run build",
     "test": "turbo run test",
-    "lint": "turbo run lint",
+    "lint": "eslint \"src/**/*.ts*\"",
     "clean": "turbo run clean",
     "server": "turbo run server"
   },
   "devDependencies": {
-    "turbo": "latest"
+    "turbo": "latest",
+    "eslint": "^8.4.1"
   }
 }
