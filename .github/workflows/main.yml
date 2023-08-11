@@ -1,4 +1,4 @@
-name: Build
+name: Build and Test
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  build:
+  build_and_test:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,6 +29,3 @@ jobs:
 
       - name: Run tests
         run: npm run test
-
-      - name: Echo PR statement
-        run: echo 'this is a PR'
