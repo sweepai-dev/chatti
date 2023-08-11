@@ -31,4 +31,4 @@ jobs:
         run: npm run test
 
       - name: Echo PR statement
-        run: echo "this is a PR"
+        run: echo 'this is a PR'
