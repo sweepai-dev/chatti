@@ -9,4 +9,5 @@ gha_enabled: True
 # Here's an example: sweepai/sweep is a python project. The main api endpoints are in sweepai/api.py. Write code that adheres to PEP8.
 description: ''
 
+docs: {"Turbo": "https://turbo.build/repo/docs"}
 # Default Values: https://github.com/sweepai/sweep/blob/main/sweep.yaml
