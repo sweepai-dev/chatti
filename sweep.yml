@@ -1,0 +1,7 @@
+sweep.yml:
+
+docs:
+  - "https://create-react-app.dev"
+  - "https://socket.io/docs/v4/"
+  - "https://reactjs.org"
+  - "https://turbo.build/repo/docs"
